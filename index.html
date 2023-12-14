@@ -6,16 +6,34 @@
     <title>Document</title>
 </head>
 <body style="display: flex;align-items: center;justify-content: center;">
-<div style="display: flex;">
-    <button class="decrease">
-        -
-    </button>
-    <div class="count">
-    0
+<form style="display: block;" class="student" action="">
+    <input placeholder="Student Name" type="text">
+    <input placeholder="Student Surname" type="text">
+    <input placeholder="Student Age" type="text">
+    <input type="submit">
+ 
+</form>
+<form style="display: none;" class="employee" action="">
+    <input  class="employeeName" placeholder="employee Name" type="text">
+    <input class="employeeSurname" placeholder="employee Surname" type="text">
+    <input class="employeeAge" placeholder="employee Age" type="text">
+    <input class="employeeSalary" placeholder="employee Salary" type="text">
+    <input class="employeeSkills" placeholder="employee skills" type="text">
+    <input type="submit">
+    <select class="skills" name="" id="">
+        <option value="">boss</option>
+        <option value="">other</option>
+    </select>
+</form>
+<select class="select" name="" id="">
+    <option value="student">student</option>
+    <option value="employee">employee</option>
+</select>
+<br>
+<div>
+    <div class="Employes">
+
     </div>
-    <button class="increse">
-    +
-    </button>
 </div>
     <script src="./app.js"></script>
 </body>
